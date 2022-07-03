@@ -28,7 +28,7 @@ namespace Questao_1___Prova_de_Logica_de_programação___unifaat
 
             media = ((nota1 + nota2 + notatrab) / 3); //media será a soma das notas dividido pelo numero de notas
 
-            if (media > 8.5)//estruturas de condição para designar conceitos dependendo da nota
+            if (media >= 8.5 && <= 10)//estruturas de condição para designar conceitos dependendo da nota
             {
                 Console.WriteLine($"A média do aluno {nomealuno} foi de {media}, então o conceito é A");
             }
