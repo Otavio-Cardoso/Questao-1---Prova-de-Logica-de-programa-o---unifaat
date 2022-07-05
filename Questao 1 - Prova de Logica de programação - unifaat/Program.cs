@@ -10,25 +10,24 @@ namespace Questao_1___Prova_de_Logica_de_programação___unifaat
     {
         static void Main(string[] args)
         {
-            int notatrab, nota1, nota2;
-            double media;
+            double notatrab, nota1, nota2, media;
             string nomealuno;
 
             Console.WriteLine("Digite o nome do aluno:");
             nomealuno = Console.ReadLine();
 
             Console.WriteLine("Digite o a nota do trabalho:");
-            notatrab = Convert.ToInt32(Console.ReadLine());
+            notatrab = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("Digite o primeira nota:");
-            nota1 = Convert.ToInt32(Console.ReadLine());
+            nota1 = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("Digite o segunda nota:");
-            nota2 = Convert.ToInt32(Console.ReadLine());
+            nota2 = Convert.ToDouble(Console.ReadLine());
 
             media = ((nota1 + nota2 + notatrab) / 3); //media será a soma das notas dividido pelo numero de notas
 
-            if (media >= 8.5 && <= 10)//estruturas de condição para designar conceitos dependendo da nota
+            if (media >= 8.5 && media <= 10)//estruturas de condição para designar conceitos dependendo da nota
             {
                 Console.WriteLine($"A média do aluno {nomealuno} foi de {media}, então o conceito é A");
             }
