@@ -10,6 +10,8 @@ namespace Questao_1___Prova_de_Logica_de_programação___unifaat
     {
         static void Main(string[] args)
         {
+            //------------- ALUNO : OTÁVIO CARDOSO RA 6322528 -------------
+            
             double notatrab, nota1, nota2, media;
             string nomealuno;
 
